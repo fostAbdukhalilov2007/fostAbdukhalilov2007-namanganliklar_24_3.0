@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 24px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+/* header */
+.site-header {
+    background: #f6f6f6;
+    padding: 30px 0;
+}
+
+.site-header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-header__start {
+    display: flex;
+    align-items: center;
+} 
+
+.site-header__money {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: 30px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.site-header__start-item {
+    margin-right: 25px;
+
+}
+
+.site-header__money-dol{
+    display: inline-block;
+    margin-right: 5px;
+    font-style: 20px;
+    font-weight: 700;
+    color: #2959CE;
+}
+
+.site-header__money-rub  {
+    display: inline-block;
+    margin-left: 15px;
+    font-style: 20px;
+    font-weight: 700;
+    color: #2959CE;
+
+}
+
+.site-header__money-num {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5555; 
+}
+
+
+.site-header__finish {
+    display: flex;
+    align-items: center;
+}
+
+.site-header__input {
+    width: 275px;
+    padding: 15px 10px;
+    padding-left: 35px;
+    border-radius: 60px;
+    background-image: url(/img/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 120px) calc(50%);
+    border: 1px solid transparent;
+    /* background-size: contain; */
+}
+
+.site-header__languages {
+    width: 80px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: #DCE6FF;
+    border-radius: 39px;
+}
+.site-header__uz {
+    margin-right: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.site-header__btn {
+    display: inline-block;
+    padding: 13px 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;    
+    background-color: #7296EC;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+/* nav */
+.nav {
+    width: 1240px;
+    position: absolute;
+    top: 120px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.site-header__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.site-header__link {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #7F7F7F;
+    text-decoration: none;
+}
+
+/* nav end */
+/* header end */
+
+/* aside */
+
+.site-aside {
+    margin-top: 100px;
+}
+.site-aside__img {
+    width: 1240px;
+}
+
+/* aside end */
+
+/* news */
+.news {
+    margin-top: 50px;
+}
+.news__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.news__item {
+    width: 363px;
+    margin-bottom: 30px;
+    padding: 17px 20px;
+    background-color: #f6f6f6;
+}
+
+.news__title {
+    margin-bottom: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.news__text {
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.news__img {
+    width: 330px;
+    margin-bottom: 18px;
+}
+
+.news__before::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url(/img/kb.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* news end */
