@@ -220,7 +220,27 @@
     margin-bottom: 18px;
 }
 
-.news__before::before {
+.world__right-under::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url(/img/kb.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.world__under::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url(/img/kb.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.news__under::before{
     content: "";
     width: 20px;
     height: 20px;
@@ -408,68 +428,71 @@
 
 /* footer */
 
-footer{
+.footer{
     display: block;
     justify-content: center;
     align-items: center;
-}
-
-/* footer end */
-
-/* footer__section */
-
-footer {
-    margin-top: 100px;
-    background: #7297EF;
-    padding: 40px 0;
+    background-color: #7297EF;
     color: #fff;
-    /* height: 356px; */
-    list-style-type: none;
 }
-.footer__h2 {
-    font-weight: 700;
+
+.footer__box {
+    padding-top: 40px;
+    padding-left: 220px;
+    margin-right: 221px;
+}
+
+.footer__title {
+    font-family: 'Rubik';
+    font-weight: 800;
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 15px;
 }
+
 .footer__section {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 71px;
+    margin-bottom: 30px;
+
 }
-.footer__section__p {
+.footer__section-text {
+    width: 229px;
+    font-family: 'Rubik';
     font-weight: 400;
     font-size: 12px;
     line-height: 19px;
-}
-.footer__section__links__first__li, 
-.footer__section__links__second__li {
-    margin-bottom: 40px;
-}
-.footer__section__links__first__li a,
-.footer__section__links__second__li a{
-    color: #fff;
-    margin-bottom: 2px;
+    margin-right: 200px;
 }
 
-/* footer__section end */
+.footer__section-links__first{
+    margin-right: 203px;
+}
 
-/* footer message */
+.footer__section__links__first-li a,
+.footer__section__links__second-li a{
+    display: flex;
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffff;
+}
 
+.footer__message-title__second {
+    width: 161px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
 .footer__message {
+    padding-top: 20px;
+    padding-bottom: 40px;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px 0;
+    justify-content: space-between;
 }
-.icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer__icons-links img {
+    margin-left: 25px;
 }
-.icons img {
-    margin-left: 24px;
-}
-
-/* footer message end */
+/* footer end */
